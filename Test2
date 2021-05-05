@@ -1,0 +1,8 @@
+game:GetService("RunService").RenderStepped:Connect(function()
+game:GetService("ReplicatedStorage").Events.attack:FireServer("Slash")
+game:GetService("ReplicatedStorage").Events.attack:FireServer("T")
+game:GetService("ReplicatedStorage").Events.attack:FireServer("E")
+game:GetService("ReplicatedStorage").Events.attack:FireServer("Skill", "Skill1")
+game:GetService("ReplicatedStorage").Events.attack:FireServer("Skill", "Skill2")
+game:GetService("ReplicatedStorage").Events.attack:FireServer("Skill", "Skill3")
+end)
